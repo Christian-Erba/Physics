@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(39, 37, 37);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.feedback-container {
+    background-color: black;
+    border-radius: 12px;
+    margin-top: 8%;
+    margin-left: 29%;
+    max-width: 500px;
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.feedback-container h1 {
+    text-align: center;
+}
+
+.feedback-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.feedback-container input[type="text"],
+.feedback-container input[type="email"],
+.feedback-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.feedback-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-container input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.Like{
+    border-radius: 9px;
+}
+.Like:hover{
+    background-color: green;
+}
+
+.Dislike{
+    border-radius: 9px;
+}
+.Dislike:hover{
+    background-color: black;
+}

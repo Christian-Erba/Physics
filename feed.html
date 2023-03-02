@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="feed.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="feedback-container">
+        <h1>Feedback</h1>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name..." style="font-family: Rubik;">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email..." style="font-family: Rubik;">
+
+            <label for="feedback">Il tuo feedback:</label>
+            <textarea id="feedback" name="feedback" required placeholder="Tell us what you think..." style="font-family: Rubik;"></textarea>
+
+            <input type="submit" value="Invia"> <br>
+
+            <button onclick="location.href='thank_you.html'" style="margin-top: 3%;" class="Like"><span class="material-symbols-outlined">
+                thumb_up
+                </span></button>
+            <button class="Dislike"><span class="material-symbols-outlined">
+                thumb_down_off
+                </span></button>
+        </form>
+    </div>
+</body>
+</html>
